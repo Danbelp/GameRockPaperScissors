@@ -1,0 +1,72 @@
+body{
+    font-family: serif;
+    margin-left: 50px;
+    background-color: rgb(65, 97, 184);
+}
+
+.normalText{
+    font-size: 40px;
+    font-weight: 100;
+    margin: 0 10px 0 0;
+}
+
+.CompPlayText{
+    margin: 30px 0 30px
+}
+
+.imageOption{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: yellow;
+    border-width: 10px;
+    outline: none;
+    background: none;
+}
+
+.imageOption:hover{
+    transform: scale(1.2);
+}
+
+.playerScore{
+    color:rgb(25, 189, 52);
+}
+
+.computerScore{
+    color: red;
+}
+
+.draw{
+    color: blue;
+}
+
+.playerChoice{
+    margin: 0 50px 0 0;
+}
+
+.computerChoice{
+    margin: 0 50px 0 0;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    text-indent: -10000px
+}
+
+.playerChoice{
+    margin: 0 50px 0 0;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    text-indent: -10000px
+}
+
+.numberScore{
+    font-size: 30px;
+    opacity:0.8;
+    font-weight:bolder;
+    margin: 0 50px 0 0;
+}
